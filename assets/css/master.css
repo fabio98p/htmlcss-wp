@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.container{
+  margin: 30px 10% 0 10%;
+}
+.row:after{
+  clear:both;
+  content: "";
+  display: table;
+}
+div[class^="col_"]{
+  float: left;
+}
+.padd_personale{
+  padding: 20px 10px 20px 10px;
+}
+
+/* DIMENSION */
+.dim_100{
+  height: 100%;
+  width: 100%;
+}
+/* DIMENSION */
+
+/* BACKGROUND COLOR */
+.bg_little_dark{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.bg_pink{
+  background-color: pink;
+}
+.bg_yellow{
+  background-color: yellow;
+}
+.bg_blue{
+  background-color: blue;
+}
+.bg_lightblue{
+  background-color: lightblue;
+}
+.bg_purple{
+  background-color: purple;
+}
+/* BACKGROUND COLOR */
+
+/* LARGHEZZA COLONNE % */
+.col_100{
+  width: 100%;
+}
+.col_75{
+  width: 75%;
+}
+.col_50{
+  width: 50%;
+}
+.col_25{
+  width: 25%;
+}
+/* LARGHEZZA COLONNE % */
+
+/* GENERAL HEIGHT */
+.h_50{
+  height: 50px;
+}
+.h_100{
+  height: 100px;
+}
+.h_200{
+  height: 200px;
+}
+.h_300{
+  height: 300px;
+}
+.h_500{
+  height: 500px;
+}
+/* GENERAL HEIGHT */
+
+/* MARGIN TOP */
+.mar_10{
+  margin: 10px;
+}
+.mar_-10{
+  margin: -10px;
+}
+.mar_20{
+  margin: 20px;
+}
+.mar_-20{
+  margin: -20px;
+}
+/* MARGIN TOP */
+
+/* PADDING */
+.padd_10{
+  padding: 10px;
+}
+.padd_-10{
+  padding: -10px;
+}
+.padd_20{
+  padding: 20px;
+}
+.padd_-20{
+  padding: -20px;
+}
+/* PADDING */
