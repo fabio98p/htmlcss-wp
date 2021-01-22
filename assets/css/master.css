@@ -20,13 +20,6 @@ div[class^="col_"]{
   padding: 20px 10px 20px 10px;
 }
 /* regole generali per i container e per i float */
-.bg_img{
-  background-image: url(../img/banner.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-}
 /* regole per header */
 header span{
   margin: 0 10px;
@@ -44,6 +37,13 @@ a{
 /* regole per header */
 
 /* regole per il first main */
+.bg_img_banner{
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
 .first_main .test_img h1{
 font-size: 40px;
 font-weight: 100;
@@ -58,8 +58,46 @@ font-weight: 100;
 .first_main .padd_text{
   padding: 300px 0 0 40px
 }
-
 /* regole per il first main */
+
+/* regole per il second main */
+.second_main h1{
+  font-size: 35px;
+}
+.second_main p{
+color: gray;
+}
+.bg_img_1{
+  background-image: url(../img/img-1.jpg);
+  background-position: center;
+  width: 100%;
+  height: 222.75px;
+}
+.bg_img_2{
+  background-image: url(../img/img-2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 222.75px;
+}
+.bg_img_3{
+  background-image: url(../img/img-3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 222.75px;
+}
+/* regole per il second main */
+
+/* regole per il footer */
+footer{
+  text-align: center;
+}
+footer p strong{
+  font-size: 25px;
+  color: red;
+}
+/* regole per il footer */
 
 /* DIMENSION */
 .dim_100{
