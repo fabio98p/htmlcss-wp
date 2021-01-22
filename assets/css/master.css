@@ -4,8 +4,9 @@
   padding: 0px;
   border: 0px;
 }
+/* regole generali per i container e per i float */
 .container{
-  margin: 30px 10% 0 10%;
+  margin: 30px 20% 0 20%;
 }
 .row:after{
   clear:both;
@@ -18,7 +19,14 @@ div[class^="col_"]{
 .padd_personale{
   padding: 20px 10px 20px 10px;
 }
-
+/* regole generali per i container e per i float */
+.bg_img{
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
 /* regole per header */
 header span{
   margin: 0 10px;
@@ -34,6 +42,24 @@ a{
   text-decoration: none;
 }
 /* regole per header */
+
+/* regole per il first main */
+.first_main .test_img h1{
+font-size: 40px;
+font-weight: 100;
+}
+.bor_rad_10{
+  border-radius: 10px;
+}
+.first_main .test_img{
+  width: 60%;
+  color: white;
+}
+.first_main .padd_text{
+  padding: 300px 0 0 40px
+}
+
+/* regole per il first main */
 
 /* DIMENSION */
 .dim_100{
