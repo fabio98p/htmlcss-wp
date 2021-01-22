@@ -19,6 +19,22 @@ div[class^="col_"]{
   padding: 20px 10px 20px 10px;
 }
 
+/* regole per header */
+header span{
+  margin: 0 10px;
+}
+header span:first-child{
+  margin: 0 10px 0 0;
+}
+header .row{
+  margin
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+/* regole per header */
+
 /* DIMENSION */
 .dim_100{
   height: 100%;
@@ -80,7 +96,7 @@ div[class^="col_"]{
 }
 /* GENERAL HEIGHT */
 
-/* MARGIN TOP */
+/* MARGIN */
 .mar_10{
   margin: 10px;
 }
@@ -92,6 +108,21 @@ div[class^="col_"]{
 }
 .mar_-20{
   margin: -20px;
+}
+/* MARGIN */
+
+/* MARGIN TOP */
+.mar_t_10{
+  margin-top: 10px;
+}
+.mar_t_-10{
+  margin-top: -10px;
+}
+.mar_t_20{
+  margin-top: 20px;
+}
+.mar_t_-20{
+  margin-top: -20px;
 }
 /* MARGIN TOP */
 
